@@ -1,7 +1,7 @@
 html {
   height: 100%;
 }
-  
+
 body {
   height: 100%;
   margin: 0px;
@@ -25,12 +25,13 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 50px;
+  text-align: center;
   font-family: 'M PLUS 1p', sans-serif;
 }
   
 nav {
-  background-color: rgb(255, 223, 220);
+  background-color: #ff8686dd;
   padding-bottom: 10px;
   padding-top: 10px;
   position: fixed;
@@ -49,7 +50,7 @@ nav ul {
   
 nav li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 nav a {
@@ -57,12 +58,12 @@ nav a {
   text-decoration: none;
   font-family: "DM Serif Display", serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
   
 nav a:hover {
-  color: rgb(255, 100, 85);
+  color: #ffffff;
 }
 
 header {
@@ -102,23 +103,23 @@ header {
   padding: 0px 20px;
 }
 
-table {
+.info table {
   border-collapse: collapse;
-  border: #ff8686;
+  border: 2px;
+  border-color: #ff8686;
   margin: 50px;
   width: calc(100% - 103.334px);
 }
 
-table th{
+.info table th{
   color: #ff0000;
   text-align: center;
   font-size: 25px;
-  font-family: "Anton", sans-serif;
+  font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
 }
 
-table td{
-  margin: 5px;
+.info table td{
   font-size: 17px;
   color: #000000;
   text-align: left;
@@ -127,44 +128,49 @@ table td{
   font-weight: 400;
 }
 
-.japanese {
+.classes {
   margin: 50px;
 }
 
-.japanese p {
-  font-size: 20px;
-  padding: 20px;
-  height: 30px;
-  font-family: 'Noto Serif JP', serif;
-  margin-bottom: 600px;
-}
-
-.japanese table {
-  border-collapse: collapse;
-  border: #ff8686;
-  margin: 50px;
-  width: calc(100% - 103.334px);
-}
-
-.japanese table td {
-  margin: 5px;
+.classes p {
+  font-size: 17px;
   padding: 10px;
-  width: auto;
+  height: auto;
+}
+
+.classes table {
+  border-collapse: collapse;
+  border: 2px;
+  border-color: #cccccc;
+  margin: 0px;
+  width: calc(100% - 4px);
+}
+
+.classes table th{
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+}
+
+.classes table td{
+  padding: 10px;
+  font-size: 17px;
   color: #000000;
   text-align: left;
-  font-size: 17px;
   font-family: "Noto Serif JP", serif;
   font-weight: 400;
-  text-align: center;
 }
 
 footer {
   margin-top: 50px;
   font-size: 15px;
   text-align: center;
-  color: #ffffff;
-  background-color: #004f6c;
-  font-family: 'BIZ UDPMincho', serif;
+  color: #000000;
+  background-color: #FFDFDC;
+  font-family: "BIZ UDPMincho", serif;
+  font-weight: 400;
   padding: 10px;
   height: 25px;
 }
