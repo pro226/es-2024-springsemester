@@ -9,7 +9,7 @@ body {
   display: grid;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   height: 100vh;
   place-items: left;
 }
@@ -108,6 +108,7 @@ header {
 
 .date-underline {
   font-family: 'M PLUS 1p', sans-serif;
+  font-weight: bold;
   border-bottom: solid 3px #ff5555;
 }
 
@@ -136,22 +137,8 @@ header {
   font-weight: 400;
 }
 
-.apply {
-  margin: 50px;
-}
-
-.apply p {
-  font-size: 25px;
-  color: #000000;
-  font-family: "Noto Serif JP", serif;
-  padding: 0px;
-}
-
-.apply a {
-  font-size: 20px;
-  color: #000000;
-  font-family: "Noto Serif JP", serif;
-  padding: 0px;
+.info a {
+  color: #ff0000;
 }
 
 .classes {
