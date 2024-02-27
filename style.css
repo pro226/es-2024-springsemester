@@ -106,7 +106,7 @@ header {
   padding: 0px 20px;
 }
 
-.date-underline {
+.underline {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: bold;
   border-bottom: solid 3px #ff5555;
@@ -139,6 +139,39 @@ header {
 
 .info a {
   color: #ff0000;
+}
+
+.blank-icon {
+  box-sizing: border-box;
+  position: relative;
+  width: 20px;
+  height: 16px;
+  transform: scale(3);
+  padding: 0px 15px;
+  margin: 0px;
+}
+
+.blank-icon:before,
+.blank-icon:after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  border-style: solid;
+  border-color: #ff0000;
+}
+
+.blank-icon:before {
+  top: 0;
+  left: 0;
+  border-width: 2px;
+}
+
+.blank-icon:after {
+  top: 4px;
+  left: 4px;
+  border-width: 0 2px 2px 0;
 }
 
 .classes {
