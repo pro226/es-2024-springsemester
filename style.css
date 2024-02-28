@@ -132,7 +132,6 @@ header {
   font-size: 17px;
   color: #000000;
   text-align: left;
-  font-size: 17px;
   font-family: "Noto Serif JP", serif;
   font-weight: 400;
 }
@@ -202,7 +201,7 @@ header {
 
 .classes table td{
   padding: 10px;
-  font-size: 17px;
+  font-size: 14px;
   color: #000000;
   text-align: left;
   font-family: "Noto Serif JP", serif;
