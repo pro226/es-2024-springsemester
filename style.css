@@ -216,6 +216,7 @@ header {
 .classes table td p {
   margin: 0px;
   color: #000000;
+  padding-left: 14px;
 }
 
 footer {
