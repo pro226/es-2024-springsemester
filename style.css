@@ -112,6 +112,14 @@ header {
   border-bottom: solid 3px #ff5555;
 }
 
+.schedule iframe{
+  margin: 50px;
+  border: 0px;
+  width: calc(100% - 100px);
+  height: 80vh;
+}
+
+
 .info table {
   border-collapse: collapse;
   border: 2px;
